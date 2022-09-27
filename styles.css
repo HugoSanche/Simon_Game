@@ -1,0 +1,128 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.pressed2 {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.btnColor {
+  background: #fef2bf;
+  background-image: -webkit-linear-gradient(top, #fef2bf, #429ffd);
+  background-image: -moz-linear-gradient(top, #fef2bf, #429ffd);
+  background-image: -ms-linear-gradient(top, #fef2bf, #429ffd);
+  background-image: -o-linear-gradient(top, #fef2bf, #429ffd);
+  background-image: linear-gradient(to bottom, #fef2bf, #429ffd);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnColor:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.inVisible{
+  visibility: hidden;
+}
+
+.visible{
+  visibility: visible;
+}
+
+.flash {
+  -moz-animation: flash 1s ease-out;
+  -moz-animation-iteration-count: 1;
+
+  -webkit-animation: flash 1s ease-out;
+  -webkit-animation-iteration-count: 1;
+
+  -ms-animation: flash 1s ease-out;
+  -ms-animation-iteration-count: 1;
+}
+
+@keyframes flash {
+    0% { background-color: transparent; }
+    50% { background-color: #fbf8b2; }
+    100% { background-color: transparent; }
+}
+
+@-webkit-keyframes flash {
+    0% { background-color: transparent; }
+    50% { background-color: #fbf8b2; }
+    100% { background-color: transparent; }
+}
+
+@-moz-keyframes flash {
+    0% { background-color: transparent; }
+    50% { background-color: #fbf8b2; }
+    100% { background-color: transparent; }
+}
+
+@-ms-keyframes flash {
+    0% { background-color: transparent; }
+    50% { background-color: #fbf8b2; }
+    100% { background-color: transparent; }
+}
